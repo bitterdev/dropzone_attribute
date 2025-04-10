@@ -40,4 +40,6 @@ window.initDropzoneFields = function () {
     });
 }
 
-window.initDropzoneFields ();
+setTimeout(function () {
+    window.initDropzoneFields();
+}, 100);

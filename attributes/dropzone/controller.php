@@ -1,6 +1,6 @@
 <?php
 
-namespace Concrete\Package\Bitter\DropzoneAttribute\Attribute\Dropzone;
+namespace Concrete\Package\DropzoneAttribute\Attribute\Dropzone;
 
 use Bitter\DropzoneAttribute\Entity\Attribute\Key\Settings\DropzoneSettings;
 use Bitter\DropzoneAttribute\Entity\Attribute\Value\Value\DropzoneSelectedFiles;

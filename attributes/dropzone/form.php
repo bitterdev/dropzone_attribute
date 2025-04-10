@@ -2,6 +2,7 @@
 
 defined('C5_EXECUTE') or die('Access Denied.');
 
+use Bitter\DropzoneAttribute\Entity\Attribute\Value\Value\DropzoneValue;
 use Concrete\Core\Attribute\Controller;
 use Concrete\Core\Entity\File\File;
 use Concrete\Core\Support\Facade\Application;
@@ -15,13 +16,15 @@ if (!isset($currentFiles)) {
   $currentFiles = [];
 }
 
+/** @var Controller $controller */
 /** @var Controller $view */
-/** @var \Bitter\DropzoneAttribute\Entity\Attribute\Key\BrandKey $attributeKey */
 
 $app = Application::getFacadeApplication();
 /** @var Form $form */
+/** @noinspection PhpUnhandledExceptionInspection */
 $form = $app->make(Form::class);
 /** @var Identifier $idHelper */
+/** @noinspection PhpUnhandledExceptionInspection */
 $idHelper = $app->make(Identifier::class);
 
 $previewTemplateId = "ccm-" . $idHelper->getString() . "-file-upload-preview-template";
@@ -96,7 +99,7 @@ $previewTemplateId = "ccm-" . $idHelper->getString() . "-file-upload-preview-tem
 
 ?>
 
-<?php if ($attributeValue instanceof \Bitter\DropzoneAttribute\Entity\Attribute\Value\Value\DropzoneValue && $user->isSuperUser()) { ?>
+<?php if ($attributeValue instanceof DropzoneValue && $user->isSuperUser()) { ?>
     <div style="margin-top: 5px">
         <p class="text-muted">
             <?php echo t("Click %s to download all files.", sprintf(
