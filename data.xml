@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<concrete5-cif version="1.0">
+    <attributetypes>
+        <attributetype handle="dropzone" name="Dropzone" package="dropzone_attribute">
+            <categories>
+                <category handle="collection"/>
+                <category handle="user"/>
+                <category handle="file"/>
+                <category handle="site"/>
+                <category handle="event"/>
+                <category handle="site_type"/>
+                <category handle="express"/>
+            </categories>
+        </attributetype>
+    </attributetypes>
+</concrete5-cif>

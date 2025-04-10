@@ -1,0 +1,3 @@
+# Dropzone Attribute 
+
+The Dropzone Attribute add-on for Concrete CMS introduces a powerful and user-friendly attribute type that allows file uploads via drag & drop or click-to-select — anywhere attributes are used. Whether for user profiles, pages, or custom objects, this flexible attribute integrates seamlessly into the Concrete CMS interface. It features a sleek, modern upload UI that mirrors the familiar look & feel of Concrete CMS’s built-in file manager dropzone, providing a consistent and intuitive experience. Uploaded files are stored directly in the Concrete CMS File Manager, making them easy to manage and reuse. Perfect for developers and site editors alike, this add-on brings the full convenience of drag & drop uploads to any part of your site.
