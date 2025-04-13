@@ -1,5 +1,10 @@
 {
   "name": "bitter/dropzone_attribute",
   "type": "concrete5-package",
-  "description": "Add a drag & drop file upload field anywhere attributes are supported in Concrete CMS."
+  "description": "Add a drag & drop file upload field anywhere attributes are supported in Concrete CMS.",
+  "autoload": {
+    "psr-4": {
+      "Bitter\\DropzoneAttribute\\": "src/Bitter/DropzoneAttribute"
+    }
+  }
 }
