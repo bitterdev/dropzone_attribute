@@ -1,17 +1,17 @@
 {
   "name": "dropzone_attribute",
   "version": "1.0.0",
-  "description": "Package that contains the theme for the uniqyou site.",
+  "description": "Package that contains the theme for the dropzone attribute.",
   "author": "Fabian Bitter",
   "license": "MIT",
   "devDependencies": {
-    "@concretecms/bedrock": "^1.5.1",
-    "laravel-mix": "^6.0.41",
+    "laravel-mix": "^6.0.49",
     "resolve-url-loader": "^5.0.0",
-    "sass": "^1.59.3",
-    "sass-loader": "^12.6.0",
-    "vue-loader": "^15.10.1",
-    "vue-template-compiler": "^2.7.14"
+    "sass": "^1.87.0",
+    "sass-loader": "^16.0.5",
+    "vue": "^3.5.13",
+    "vue-loader": "^17.4.2",
+    "vue-template-compiler": "^0.1.0"
   },
   "scripts": {
     "development": "mix",
@@ -21,15 +21,6 @@
     "production": "mix --production"
   },
   "dependencies": {
-    "@orestbida/iframemanager": "^1.2.5",
-    "@studio-freight/lenis": "^1.0.42",
-    "gsap": "^3.12.5",
-    "jquery.marquee": "^1.6.0",
-    "path": "^0.12.7",
-    "photoswipe": "^4.1.3",
-    "slick-carousel": "^1.8.1",
-    "toastify-js": "^1.12.0",
-    "vanilla-cookieconsent": "^2.9.2",
-    "vue": "^2.7.14"
+    "dropzone": "^6.0.0-beta.2"
   }
 }
